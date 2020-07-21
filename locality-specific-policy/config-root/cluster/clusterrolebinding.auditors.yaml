@@ -7,7 +7,7 @@ metadata:
     configmanagement.gke.io/cluster-selector: select-location-belgium
 subjects:
 - kind: User
-  name: auditor@foo-corp.com
+  name: ritu.singh@soprasteria.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
