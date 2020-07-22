@@ -6,4 +6,3 @@ spec:
   containers:
     - name:  pause
       image: k8s.gcr.io/pause
-EOF
