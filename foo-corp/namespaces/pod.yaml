@@ -6,3 +6,7 @@ spec:
   containers:
     - name:  pause
       image: k8s.gcr.io/pause
+      resources:
+      requests:
+        memory: "1Gi"
+        cpu: "1"
