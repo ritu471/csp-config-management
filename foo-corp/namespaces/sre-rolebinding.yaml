@@ -5,7 +5,7 @@ metadata:
   annotations:
     configmanagement.gke.io/namespace-selector: sre-supported
 subjects:
-- kind: Group
+- kind: User
   name: ritu.singh@soprasteria.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
