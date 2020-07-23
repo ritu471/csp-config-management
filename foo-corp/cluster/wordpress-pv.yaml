@@ -1,0 +1,16 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: wordpress-pv
+  labels:
+    name: wordpress-1-0-0
+spec:
+  capacity:
+    storage: 20Gi
+  storageClassName: standard
+  accessModes:
+    - ReadWriteMany
+  gcePersistentDisk:
+    pdName: models-1-0-0
+    fsType: ext4
+    readOnly: true
