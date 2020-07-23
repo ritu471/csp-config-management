@@ -1,0 +1,15 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: mysql-pv
+  labels:
+    name: mysql-pv-1-0-0
+spec:
+  capacity:
+    storage: 2Gi
+  storageClassName: standard
+  accessModes:
+    - ReadWriteMany
+  gawsElasticBlockStore: 
+    fsType: "ext4" 
+    volumeID: "vol-06737046101bd6c65" 
