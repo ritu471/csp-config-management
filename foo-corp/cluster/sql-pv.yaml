@@ -6,7 +6,7 @@ metadata:
     name: mysql-pv-1-0-0
 spec:
   capacity:
-    storage: 200Gi
+    storage: 2Gi
   storageClassName: standard
   accessModes:
     - ReadWriteMany
