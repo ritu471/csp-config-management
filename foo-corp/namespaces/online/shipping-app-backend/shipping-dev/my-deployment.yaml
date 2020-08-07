@@ -7,7 +7,7 @@ spec:
     matchLabels:
       app: metrics
       department: sales
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
